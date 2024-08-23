@@ -21,3 +21,18 @@ For deactivation of the virtual environment, type `deactivate` in the terminal.
 You will see `(base) lm3-500-28802:folder_name username $`
 
 To use specific modules/packages in the virtual environment, install them first!
+PIP (Preferred Installer Program) command is used to install such packages.
+
+To see all the packages in the current virtual environment, type `pip list`. Then, all the packages in the current virtual environment will be shown.
+
+## To save all the versions of the packages in the text file!
+-> Type `pip freeze > requirements.txt` ( i)`pip freeze` outputs all the packages along with their versions, ii)`>` is a shell operator which takes the output from the left side and writes it to the `requirements.txt` file )
+
+## Let's create another virtual environment.
+-> So, deactivate whatever virtual environment is running/activating. 
+-> Then, create new virtual environment by typing `python3 -m venv my_env`
+-> Now, as usual, type `source my_env/bin/activate` to activate the virtual environment.
+-> Now, typing `pip list` does not show all the packages that was installed in the previous virtual environment. 
+-> To install the packages that were installed in the previous virtual environment (`env`), type `pip install -r requirements.txt`. (`pip install` install the package(s) that is(are) mentioned after `pip install`. ii)`-r` flag stands for requirements and install the packages listed in next txt)
+
+
