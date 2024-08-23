@@ -8,7 +8,14 @@ Thus, I created a short and sweet description on several technical issues that I
 
 If the description starts to expand, several ways of maintainance will be considered in future. 
 
-## How to use python virual environments! (on Mac)
+## How to create and use virual environments in Python! (on Mac)
 -> First, open the terminal.
 -> Go to ur project folder.
--> Type 'python3 -m venv env' (tells the command to be run using python3. ii) `-m` flag tells the module should be run as scripts. iii) `vent` is just a module in python that allows to create virtual environments. 
+-> Type 'python3 -m venv env' (tells the command to be run using python3. ii) `-m` flag tells the module should be run as scripts. iii) `vent` is just a module in python that allows to create virtual environments. iv) `env` is the name of the environmemt that I am about to create (honestly, this can be replaced with other names for convenience)
+
+Once the virtual environment is created, it requires to be activated for use.
+-> In terminal, type `source env/bin/activate`
+You will see `(env) (base) lm3-500-28802:folder_name username $`
+
+For deactivation of the virtual environment, type `deactivate` in the terminal. 
+You will see `(base) lm3-500-28802:folder_name username $`
