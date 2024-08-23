@@ -19,3 +19,5 @@ You will see `(env) (base) lm3-500-28802:folder_name username $`
 
 For deactivation of the virtual environment, type `deactivate` in the terminal. 
 You will see `(base) lm3-500-28802:folder_name username $`
+
+To use specific modules/packages in the virtual environment, install them first!
