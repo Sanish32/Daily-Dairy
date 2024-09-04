@@ -36,3 +36,6 @@ To see all the packages in the current virtual environment, type `pip list`. The
 -> To install the packages that were installed in the previous virtual environment (`env`), type `pip install -r requirements.txt`. (`pip install` install the package(s) that is(are) mentioned after `pip install`. ii)`-r` flag stands for requirements and install the packages listed in next txt)
 
 
+# To see if I belong to grp-cubbli-ssh-access at UH.
+
+
