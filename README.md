@@ -38,7 +38,7 @@ To see all the packages in the current virtual environment, type `pip list`. The
 
 # To see if I belong to grp-cubbli-ssh-access at UH.
 -> Open the terminal.
--> Type `ssh` + `my_username` + `@melkki.cs.helsinki.fi`. 
+-> Type `ssh` + `my_username` + `@melkki.cs.helsinki.fi`. </ br>
 -> Then, the terminal asks for the password. So, enter my university account password.
 -> Then, I will be connected to ... (placeholder). 
 -> Type, `groups`. Then, search for `grp-cubbli-ssh-access`.
